@@ -15,6 +15,7 @@ jobs:
         with:
           profile: default
           toolchain: nightly-2021-11-08
+          override: true # don't install a default toolchain, just our specified nightly version
 
       - name: Run cargo fmt
         uses: actions-rs/cargo@v1
