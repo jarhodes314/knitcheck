@@ -38,4 +38,3 @@ where
     If<{ or(REMAINING == 0, COMPLETE == 0) }>: True,
 {
 }
-

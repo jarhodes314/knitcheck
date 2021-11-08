@@ -71,8 +71,7 @@ mod tests {
     ///
     /// Row::<0, 1>.complete();
     /// ```
-    fn finished_row_is_complete() {
-    }
+    fn finished_row_is_complete() {}
 
     #[test]
     fn can_cast_on_at_start_of_row() {
@@ -128,7 +127,7 @@ mod tests {
     #[test]
     #[deny(unused_must_use)]
     fn knit_macro_succeeds_if_multiple_rows_are_complete() {
-        knit! { 
+        knit! {
             >> CastOn::<7>, Knit::<7>
             => Purl::<7>
         };
